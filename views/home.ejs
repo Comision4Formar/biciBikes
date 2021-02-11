@@ -4,23 +4,21 @@
 
   <body>
     <%- include('partials/header')%>
-      <link rel="stylesheet" href="stylesheets/home.css">
 
       <main>
-        <hr color="gray" size="3">
-        <section class="banner">
-          <h1>¡Bienvenidos a BiciBikes!</h1>
-          <button type="button" class="btn btn-warning"><a href="products.ejs">Todos los productos</a></button>
+        <section class="banner py-3">
+          <h1 class="text-center">¡Bienvenidos a BiciBikes!</h1>
+          <div class="d-flex justify-content-end mt-4">
+            <button type="button" class="btn btn-warning btn-product"><a href="products.ejs">Todos los productos</a></button>
+
+          </div>
         </section>
-        <hr color="gray" size="3">
 
         <div class="container products-wrapper">
-          <div class="row"> <!--div row para c. sección-->
-
-            <!--Div de secciones-->
+          <div class="row">
 
             <!--Últimos productos vistos-->
-            <div class="col-12">
+            <div class="col-12 ">
               <h2 class="products-title">Últimos vistos</h2>
             </div>
             <!--Div de grillas-->

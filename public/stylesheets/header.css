@@ -6,30 +6,13 @@
 }
 header{
     background-color: var(--yellow);
-}header .input-search{
-    border-radius: 2px;
-    padding:5px;
-    width: 80%;
-    height: 40px;
-    position: relative;
+}
+header .input-search{
+    width: 70%;
 }
 header .search-container{
     padding: 0;
 }
-header .input-search input{
-    border: none;
-}
-header .input-search button{
-    border: none;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-left: solid 1px var(--darkGray);
-    position:absolute;
-    font-size: 0.8em;
-    height: 40%;
-    width: 12%;
-}
-
 
 
 .navbar a img{
@@ -67,8 +50,8 @@ div .buscador{
     padding: 5px 0px 5px 5px;
 }
 
-main {
-    min-height: 80vh;
+.move{
+    display: flex;
 
 }
 @media(min-width:770px){
