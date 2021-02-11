@@ -1,0 +1,95 @@
+:root {
+    --black: #222831;
+    --darkGray: #393e46;
+    --yellow: #ffd369;
+    --lightGray: #eeeeee;
+}
+header{
+    background-color: var(--yellow);
+}header .input-search{
+    border-radius: 2px;
+    padding:5px;
+    width: 80%;
+    height: 40px;
+    position: relative;
+}
+header .search-container{
+    padding: 0;
+}
+header .input-search input{
+    border: none;
+}
+header .input-search button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-left: solid 1px var(--darkGray);
+    position:absolute;
+    font-size: 0.8em;
+    height: 40%;
+    width: 12%;
+}
+
+
+
+.navbar a img{
+    width: 8em;
+}
+  
+a.navbar-brand {
+      margin: 0px;
+}
+div .buscador{
+    padding: 0;
+}
+.wheel {
+     position: absolute;
+     right: 20px;
+     top: 10px;
+     width: 5rem;
+     border-radius: 70px;
+     transition: all .5s ease;
+     -webkit-transition: all .5s ease-out;
+     -moz-transition: all .5s ease;
+     -ms-transition: all .5s ease;
+}
+
+.wheel:hover {
+    box-shadow: 0px 5px 5px 0px gray;
+    transform: scale(1.05);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.indicate i {
+    padding: 5px 0px 5px 5px;
+}
+
+main {
+    min-height: 80vh;
+
+}
+@media(min-width:770px){
+    nav {
+        position: relative;
+        left:-30px;
+    }
+    .move{
+        position: relative;
+        left:-20px;
+    }
+    .boton{
+        position: relative;
+        left:60px;
+        top:-53px;
+    }
+}
+@media(min-width:1200px){
+    .boton{
+        position: relative;
+        left:30px;
+        top:-53px;
+    }
+}
